@@ -1,0 +1,1171 @@
+TWishfeed_α
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-F0664894269446EAA7AB7D9E.sh
+cProcessPCH /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch.pch SkipOrLikeSample/Wishfeed_α-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWItems.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/main.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWWebViewController.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWImageLabelView.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWDetailsViewController.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWChooseItemView.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWAppDelegate.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWViewController.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α normal x86_64
+cCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-push@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-push@2x.png
+cCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-not@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-not@2x.png
+cCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prixdefleur@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prixdefleur@2x.png
+cCopyStringsFile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/en.lproj/InfoPlist.strings SkipOrLikeSample/en.lproj/InfoPlist.strings
+cCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-push@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-push@2x.png
+cCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/like-button.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/like-button.png
+cCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike@2x.png
+cCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like@2x.png
+cCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/skip-button.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/skip-button.png
+cCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-not@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-not@2x.png
+cCompileStoryboard /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Storyboard.storyboard
+cCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/buy@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/buy@2x.png
+cCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prix\ de\ fleur02@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prix\ de\ fleur02@2x.png
+cCompileAssetCatalog /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Images.xcassets
+cProcessInfoPlistFile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Info.plist /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Wishfeed_α-Info.plist
+cGenerateDSYMFile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app.dSYM /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α
+cPhaseScriptExecution Copy\ Pods\ Resources /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-33CA077386FA473CA669EDB6.sh
+cTouch /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053492FEE0000000000000198
+t1397305326
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000534186F300000000000003B4
+t1396803315
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000534186F7000000000000019E
+t1396803319
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000534186F9000000000058E0E0
+t1396803321
+s5824736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000534186F900000000005B82F0
+t1396803321
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053492FD70000000000446820
+t1397305303
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000534186F900000000003599D0
+t1396803321
+s3512784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000534186F900000000002FC3B0
+t1396803321
+s3130288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000534186F9000000000004B000
+t1396803321
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000534186F9000000000088D8C0
+t1396803321
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c00000000534186FA000000000067F940
+t1396803322
+s6814016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000534186FA00000000001BE790
+t1396803322
+s1828752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000534186FA0000000000037680
+t1396803322
+s226944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000534186FA000000000048F720
+t1396803322
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000534186FA000000000013FD70
+t1396803322
+s1310064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000534186FA00000000001081C0
+t1396803322
+s1081792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000534186FC0000000001F1DE10
+t1396803324
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c000000005341870200000000002BC360
+t1396803330
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c00000000534187060000000000002338
+t1396803334
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c0000000053418706000000000008D370
+t1396803334
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c00000000534187060000000000392E20
+t1396803334
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c000000005302F30400000000000141F0
+t1392702212
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c00000000534187060000000000014A80
+t1396803334
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000534187060000000000033BA0
+t1396803334
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c0000000053418706000000000001CFB0
+t1396803334
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c0000000053418706000000000001B2B0
+t1396803334
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c000000005341870600000000000C9570
+t1396803334
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000534187060000000000063280
+t1396803334
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000534187060000000000008880
+t1396803334
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000534187060000000000015080
+t1396803334
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c000000005341870600000000000230F0
+t1396803334
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c0000000053418706000000000000E380
+t1396803334
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000534187060000000000089380
+t1396803334
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c00000000534187060000000000017320
+t1396803334
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000534187060000000000039CD0
+t1396803334
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c0000000053418706000000000000B0B0
+t1396803334
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000534187060000000000167E80
+t1396803334
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c000000005341870600000000000106A0
+t1396803334
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c0000000053418706000000000001CE40
+t1396803334
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c000000005341870600000000000740C0
+t1396803334
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c0000000053418706000000000006CA60
+t1396803334
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c0000000053418706000000000001BAD0
+t1396803334
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000534187060000000000084A20
+t1396803334
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000534187120000000000000ADC
+t1396803346
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c0000000053492FD7000000000000514C
+t1397305303
+s20812
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch.pch
+t1401437281
+s124248
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWAppDelegate.o
+t1401437281
+s68304
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWChooseItemView.o
+t1401437281
+s54472
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWDetailsViewController.o
+t1401437281
+s133604
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWImageLabelView.o
+t1401437281
+s50368
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWItems.o
+t1401437281
+s14432
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWViewController.o
+t1401437281
+s106076
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWWebViewController.o
+t1401437281
+s61672
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/Wishfeed_α.LinkFileList
+c0000000053883C61000000000000056A
+t1401437281
+s1386
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/main.o
+t1401437281
+s3884
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-33CA077386FA473CA669EDB6.sh
+c0000000053883C61000000000000002F
+t1401437281
+s47
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-F0664894269446EAA7AB7D9E.sh
+c0000000053883C610000000000000103
+t1401437281
+s259
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/assetcatalog_dependencies.txt
+t1401437284
+s574
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/assetcatalog_generated_info.plist
+t1401437284
+s811
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app
+t1401437360
+s714
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app.dSYM
+t1401437284
+s102
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Info.plist
+t1401437284
+s1064
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/PkgInfo
+t1401437284
+s8
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Storyboard.storyboardc
+t1401437283
+s170
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α
+t1401437360
+s1184932
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/buy@2x.png
+t1401437282
+s5905
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/en.lproj/InfoPlist.strings
+t1401437282
+s42
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-not@2x.png
+t1401437282
+s5276
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-push@2x.png
+t1401437282
+s5076
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike@2x.png
+t1401437282
+s5551
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-not@2x.png
+t1401437282
+s4607
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-push@2x.png
+t1401437282
+s4485
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like@2x.png
+t1401437282
+s4746
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/like-button.png
+t1401437282
+s5651
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prix de fleur02@2x.png
+t1401437282
+s240462
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prixdefleur@2x.png
+t1401437282
+s377504
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/skip-button.png
+t1401437282
+s6491
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/libPods.a
+c0000000053883CAF00000000002E0F80
+t1401437359
+s3018624
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.h
+c000000005371DD210000000000000134
+t1399971105
+s308
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.m
+c00000000537AFCB400000000000002EC
+t1400569012
+s748
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.h
+c00000000537C18790000000000000213
+t1400641657
+s531
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.m
+c000000005387D7D400000000000008F1
+t1401411540
+s2289
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.h
+c00000000537D579F000000000000022D
+t1400723359
+s557
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m
+c0000000053882B270000000000004E90
+t1401432871
+s20112
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.h
+c00000000537C18790000000000000139
+t1400641657
+s313
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.m
+c00000000537ECF1E00000000000006F2
+t1400819486
+s1778
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.h
+c00000000537C187900000000000001FA
+t1400641657
+s506
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.m
+c00000000537C18790000000000000210
+t1400641657
+s528
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.h
+c00000000537C187900000000000001E0
+t1400641657
+s480
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.m
+c000000005387DDAC000000000000362B
+t1401413036
+s13867
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.h
+c00000000537B0DBE000000000000010C
+t1400573374
+s268
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.m
+c00000000538829C50000000000000B0D
+t1401432517
+s2829
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Images.xcassets
+c0000000053882B460000000000000550
+t1401432902
+s1360
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Storyboard.storyboard
+c0000000053787C2C00000000000006A9
+t1400405036
+s1705
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Wishfeed_α-Info.plist
+c000000005371DD21000000000000048B
+t1399971105
+s1163
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Wishfeed_α-Prefix.pch
+c000000005371DD210000000000000158
+t1399971105
+s344
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/en.lproj/InfoPlist.strings
+c000000005371DD21000000000000002D
+t1399971105
+s45
+
+N/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/main.m
+c000000005387DA230000000000000180
+t1401412131
+s384
+
+N/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/like-button.png
+c0000000053801AD50000000000001613
+t1400904405
+s5651
+
+N/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/skip-button.png
+c0000000053801AB8000000000000195B
+t1400904376
+s6491
+
+N/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/buy@2x.png
+c000000005386CA4D0000000000001711
+t1401342541
+s5905
+
+N/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-not@2x.png
+c000000005386CA04000000000000149C
+t1401342468
+s5276
+
+N/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-push@2x.png
+c000000005386CA9600000000000013D4
+t1401342614
+s5076
+
+N/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike@2x.png
+c000000005386C96000000000000015AF
+t1401342304
+s5551
+
+N/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-not@2x.png
+c000000005386C9D600000000000011FF
+t1401342422
+s4607
+
+N/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-push@2x.png
+c000000005386CA750000000000001185
+t1401342581
+s4485
+
+N/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like@2x.png
+c000000005386C980000000000000128A
+t1401342336
+s4746
+
+N/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prix de fleur02@2x.png
+c000000005387DCA7000000000003AB4E
+t1401412775
+s240462
+
+N/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prixdefleur@2x.png
+c000000005387DC3E000000000005C2A0
+t1401412670
+s377504
+
+N/usr/lib/libSystem.B.dylib
+c000000005302F2F7000000000000E6D0
+t1392702199
+s59088
+
+N/usr/lib/system/libcache.dylib
+c000000005302F3030000000000012A00
+t1392702211
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c000000005302F2EB000000000002E320
+t1392702187
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c000000005302F2F70000000000021860
+t1392702199
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c000000005302F303000000000001B620
+t1392702211
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c000000005302F30300000000000BD920
+t1392702211
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c000000005302F30400000000000141F0
+t1392702212
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c000000005302F303000000000000A120
+t1392702211
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c000000005302F303000000000001D550
+t1392702211
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c000000005302F3030000000000014EE0
+t1392702211
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c000000005302F3050000000000010380
+t1392702213
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c000000005302F305000000000000C4C0
+t1392702213
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c000000005302F30300000000000357A0
+t1392702211
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c000000005302F303000000000000C070
+t1392702211
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c000000005302F2F70000000000168D00
+t1392702199
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c000000005302F3030000000000010630
+t1392702211
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c000000005302F304000000000001DF10
+t1392702212
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c000000005302F2F70000000000075B00
+t1392702199
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c000000005302F2F7000000000007CCE0
+t1392702199
+s511200
+
+N/usr/lib/system/libsystem_m.dylib
+c000000005302F2F700000000000766C0
+t1392702199
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c000000005302F3040000000000044DC0
+t1392702212
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c000000005302F2F70000000000021FA0
+t1392702199
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c000000005302F304000000000002D920
+t1392702212
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c000000005302F304000000000001E570
+t1392702212
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c000000005302F2FD000000000000CC70
+t1392702205
+s52336
+
+N/usr/lib/system/libsystem_stats.dylib
+c000000005302F2FF0000000000009A80
+t1392702207
+s39552
+
+N/usr/lib/system/libunc.dylib
+c000000005302F2FF000000000000C3F0
+t1392702207
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c000000005302F30400000000000199F0
+t1392702212
+s104944
+
+CBuild AST from /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.m
+r0
+
+CBuild AST from /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.m
+r0
+
+CBuild AST from /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m
+r0
+
+CBuild AST from /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.m
+r0
+
+CBuild AST from /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.m
+r0
+
+CBuild AST from /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.m
+r0
+
+CBuild AST from /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.m
+r0
+
+CBuild AST from /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies44a4e22f7438b941^5bd1e22f7438b941^---0#1#1#--18"Check dependencies36"128C0407-8E8A-404E-82D9-F15A4AF626F8-
+
+CCompileAssetCatalog /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Images.xcassets
+s423130082.040721
+e423130084.399271
+r1
+xCompileAssetCatalog
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Images.xcassets
+o2014-05-30 17:08:02.724 IBCocoaTouchImageCatalogTool[24221:303] CFPreferences: user home directory at file:///Users/fxwx23/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.compilation-results */
+o/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/LaunchImage-700@2x.png
+o/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/LaunchImage-700-568h@2x.png
+o/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Assets.car
+o/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"CompileAssetCatalog Build/Products/Debug-iphonesimulator/Wishfeed_α.app SkipOrLikeSample/Images.xcassets105"CompileAssetCatalog Build/Products/Debug-iphonesimulator/Wishfeed_α.app SkipOrLikeSample/Images.xcassetsa3770ae27338b941^7a3766e47338b941^-826"2014-05-30 17:08:02.724 IBCocoaTouchImageCatalogTool[24221:303] CFPreferences: user home directory at file:///Users/fxwx23/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/LaunchImage-700@2x.png/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/LaunchImage-700-568h@2x.png/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Assets.car/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@96"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Images.xcassets/0000000000000000^1259"CompileAssetCatalog Build/Products/Debug-iphonesimulator/Wishfeed_α.app SkipOrLikeSample/Images.xcassets    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Images.xca36"1D8DC225-8B18-40E8-A654-138EC02342D2-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWAppDelegate.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423130081.765230
+e423130081.848445
+r1
+xCompileC
+xBuild/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWAppDelegate.o
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.m
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.m227"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWAppDelegate.o SkipOrLikeSample/FWAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4c34c4e17338b941^c3b9dae17338b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.m0000000000000000^4440"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWAppDelegate.o SkipOrLikeSample/FWAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fxwx23/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-generated-files.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-own-target-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-all-target-headers.hmap -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-project-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/include -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources/x86_64 -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources -F/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/AFNetworking -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/MDCSwipeToChoose -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/OHAttributedLabel -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/SDWebImage -include /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch -MMD -MT dependencies -MF /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWAppDelegate.d --serialize-diagnostics /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWAppDelegate.dia -c /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.m -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-norm36"5FC83A9D-FE73-4968-B7B5-C71CD0069A35-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWChooseItemView.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423130081.764745
+e423130081.850573
+r1
+xCompileC
+xBuild/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWChooseItemView.o
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.m
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.m233"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWChooseItemView.o SkipOrLikeSample/FWChooseItemView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compileredf0c3e17338b941^5ebddae17338b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.m0000000000000000^4458"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWChooseItemView.o SkipOrLikeSample/FWChooseItemView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fxwx23/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-generated-files.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-own-target-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-all-target-headers.hmap -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-project-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/include -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources/x86_64 -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources -F/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/AFNetworking -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/MDCSwipeToChoose -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/OHAttributedLabel -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/SDWebImage -include /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch -MMD -MT dependencies -MF /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWChooseItemView.d --serialize-diagnostics /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWChooseItemView.dia -c /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.m -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/36"A23D9DA5-12A5-4B51-AB56-E7E5F189F9C9-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWDetailsViewController.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423130081.764303
+e423130081.892414
+r1
+xCompileC
+xBuild/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWDetailsViewController.o
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.h
+o/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m:81:22: warning: unused variable 'likeButton' [-Wunused-variable]
+o    UIBarButtonItem *likeButton = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"info-like"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+o                     ^
+o/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m:86:22: warning: unused variable 'skipButton' [-Wunused-variable]
+o    UIBarButtonItem *skipButton = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"info-dislike"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+o                     ^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m247"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWDetailsViewController.o SkipOrLikeSample/FWDetailsViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2ecbc3e17338b941^7574e4e17338b941^-731"/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m:81:22: warning: unused variable 'likeButton' [-Wunused-variable]    UIBarButtonItem *likeButton = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"info-like"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]                     ^/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m:86:22: warning: unused variable 'skipButton' [-Wunused-variable]    UIBarButtonItem *skipButton = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"info-dislike"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]                     ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@28"Unused variable 'likeButton'-423130081#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@105"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m0000000000000000^80#21#80#21#3115#0#19"Unused Entity Issue--2@28"Unused variable 'skipButton'-423130081#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@105"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m0000000000000000^85#21#85#21#3561#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@105"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m0000000000000000^4500"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWDetailsViewController.o SkipOrLikeSample/FWDetailsViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fxwx23/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-generated-files.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-own-target-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-all-target-headers.hmap -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-project-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/include -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources/x86_64 -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources -F/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/AFNetworking -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/MDCSwipeToChoose -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/OHAttributedLabel -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/SDWebImage -include /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch -MMD -MT dependencies -MF /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWDetailsViewController.d --serialize-diagnostics /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWDetailsViewController.dia -c /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.m -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/36"8B0BD333-4045-4C5B-B4DA-B720519195B6-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWImageLabelView.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423130081.763843
+e423130081.841162
+r1
+xCompileC
+xBuild/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWImageLabelView.o
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.m
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.m233"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWImageLabelView.o SkipOrLikeSample/FWImageLabelView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc3b8c3e17338b941^53b4dae17338b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.m0000000000000000^4458"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWImageLabelView.o SkipOrLikeSample/FWImageLabelView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fxwx23/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-generated-files.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-own-target-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-all-target-headers.hmap -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-project-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/include -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources/x86_64 -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources -F/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/AFNetworking -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/MDCSwipeToChoose -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/OHAttributedLabel -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/SDWebImage -include /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch -MMD -MT dependencies -MF /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWImageLabelView.d --serialize-diagnostics /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWImageLabelView.dia -c /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWImageLabelView.m -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/36"1AC035BA-4853-4EDB-91C6-BDF03701C455-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWItems.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423130081.762915
+e423130081.815901
+r1
+xCompileC
+xBuild/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWItems.o
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.m
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.m215"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWItems.o SkipOrLikeSample/FWItems.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilercf68c3e17338b941^abafdae17338b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.m0000000000000000^4404"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWItems.o SkipOrLikeSample/FWItems.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fxwx23/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-generated-files.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-own-target-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-all-target-headers.hmap -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-project-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/include -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources/x86_64 -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources -F/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/AFNetworking -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/MDCSwipeToChoose -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/OHAttributedLabel -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/SDWebImage -include /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch -MMD -MT dependencies -MF /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWItems.d --serialize-diagnostics /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWItems.dia -c /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.m -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Object36"2A8065AA-CAE7-47DE-B7DF-E98B1FF974D4-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWViewController.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423130081.765959
+e423130081.872158
+r1
+xCompileC
+xBuild/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWViewController.o
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.m
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWItems.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.m233"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWViewController.o SkipOrLikeSample/FWViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerdb51c4e17338b941^1bb8dfe17338b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.m0000000000000000^4458"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWViewController.o SkipOrLikeSample/FWViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fxwx23/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-generated-files.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-own-target-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-all-target-headers.hmap -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-project-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/include -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources/x86_64 -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources -F/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/AFNetworking -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/MDCSwipeToChoose -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/OHAttributedLabel -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/SDWebImage -include /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch -MMD -MT dependencies -MF /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWViewController.d --serialize-diagnostics /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWViewController.dia -c /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWViewController.m -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/36"CE776BE2-D603-48D6-AADA-52C0543FE8CC-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWWebViewController.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423130081.763478
+e423130081.851523
+r1
+xCompileC
+xBuild/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWWebViewController.o
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.m
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWDetailsViewController.h
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWChooseItemView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.m239"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWWebViewController.o SkipOrLikeSample/FWWebViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilercd93c3e17338b941^a0c1dae17338b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.m0000000000000000^4476"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWWebViewController.o SkipOrLikeSample/FWWebViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fxwx23/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-generated-files.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-own-target-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-all-target-headers.hmap -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-project-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/include -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources/x86_64 -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources -F/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/AFNetworking -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/MDCSwipeToChoose -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/OHAttributedLabel -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/SDWebImage -include /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch -MMD -MT dependencies -MF /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWWebViewController.d --serialize-diagnostics /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWWebViewController.dia -c /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWWebViewController.m -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x8636"5DA0C3E5-A534-411B-B496-1AEF87780059-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/main.o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423130081.763177
+e423130081.803266
+r1
+xCompileC
+xBuild/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/main.o
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/main.m
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/FWAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/main.m209"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/main.o SkipOrLikeSample/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb779c3e17338b941^b493cde17338b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/main.m0000000000000000^4386"CompileC Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/main.o SkipOrLikeSample/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fxwx23/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-generated-files.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-own-target-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-all-target-headers.hmap -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-project-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/include -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources/x86_64 -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources -F/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/AFNetworking -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/MDCSwipeToChoose -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/OHAttributedLabel -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/SDWebImage -include /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch -MMD -MT dependencies -MF /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/main.dia -c /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/main.m -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Obj36"9FDB90E5-7570-4DB3-BF02-9E6D925B20A0-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCompileStoryboard /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Storyboard.storyboard
+s423130082.038396
+e423130083.441717
+r1
+xCompileStoryboard
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Storyboard.storyboard
+o2014-05-30 17:08:03.050 Interface Builder Cocoa Touch Tool[24222:303] CFPreferences: user home directory at file:///Users/fxwx23/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"CompileStoryboard SkipOrLikeSample/Storyboard.storyboard56"CompileStoryboard SkipOrLikeSample/Storyboard.storyboardffea09e27338b941^271571e37338b941^-231"2014-05-30 17:08:03.050 Interface Builder Cocoa Touch Tool[24222:303] CFPreferences: user home directory at file:///Users/fxwx23/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@101"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Storyboard.storyboard0000000000000000^897"CompileStoryboard SkipOrLikeSample/Storyboard.storyboard    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Storyboard.storyboardc /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Storyboard.storyboard36"BCD51BC5-0C24-4B3C-9B71-995537FD5A01-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCopyStringsFile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/en.lproj/InfoPlist.strings SkipOrLikeSample/en.lproj/InfoPlist.strings
+s423130082.035479
+e423130082.044668
+r1
+xCopyStringsFile
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/en.lproj/InfoPlist.strings
+xSkipOrLikeSample/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy SkipOrLikeSample/en.lproj/InfoPlist.strings139"CopyStringsFile Build/Products/Debug-iphonesimulator/Wishfeed_α.app/en.lproj/InfoPlist.strings SkipOrLikeSample/en.lproj/InfoPlist.strings172809e27338b941^81760be27338b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/en.lproj/InfoPlist.strings0000000000000000^653"CopyStringsFile Build/Products/Debug-iphonesimulator/Wishfeed_α.app/en.lproj/InfoPlist.strings SkipOrLikeSample/en.lproj/InfoPlist.strings    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/en.lproj -- SkipOrLikeSample/en.lproj/InfoPlist.strings36"BE2E1DB7-B151-4E35-96E2-8BDC8410F3AD-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/like-button.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/like-button.png
+s423130082.036242
+e423130082.037688
+r1
+xCpResource
+x/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/like-button.png
+xBuild/Products/Debug-iphonesimulator/Wishfeed_α.app/like-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Products/Debug-iphonesimulator/Wishfeed_α.app/like-button.png155"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/like-button.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/like-button.png795709e27338b941^c8990ae27338b941^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app/like-button.png0034b4a9dcffdf42^711"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/like-button.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/like-button.png    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/like-button.png /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app36"1ADB5253-4895-47E2-B534-9E46C02733B6-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/skip-button.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/skip-button.png
+s423130082.037834
+e423130082.038672
+r1
+xCpResource
+x/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/skip-button.png
+xBuild/Products/Debug-iphonesimulator/Wishfeed_α.app/skip-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Products/Debug-iphonesimulator/Wishfeed_α.app/skip-button.png155"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/skip-button.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/skip-button.pngc5c909e27338b941^88a00ae27338b941^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app/skip-button.png0034b4a9dcffdf42^711"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/skip-button.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/skip-button.png    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/0510/skip-button.png /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app36"972DC2F6-0D55-4791-B0D4-DD8B7C65DF56-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/buy@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/buy@2x.png
+s423130082.038723
+e423130082.041648
+r1
+xCpResource
+x/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/buy@2x.png
+xBuild/Products/Debug-iphonesimulator/Wishfeed_α.app/buy@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/Wishfeed_α.app/buy@2x.png154"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/buy@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/buy@2x.png05f909e27338b941^eeb30ae27338b941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app/buy@2x.png0034b4a9dcffdf42^714"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/buy@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/buy@2x.png    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/buy@2x.png /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app36"A839C2DB-D82E-482E-8819-0F53E544B74E-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-not@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-not@2x.png
+s423130082.038118
+e423130082.038958
+r1
+xCpResource
+x/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-not@2x.png
+xBuild/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-not@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-not@2x.png180"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-not@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-not@2x.pngffcf09e27338b941^eca40ae27338b941^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app/info-dislike-not@2x.png0034b4a9dcffdf42^753"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-not@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-not@2x.png    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-not@2x.png /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app36"D2847655-5910-474E-8301-1115A025F50E-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-push@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-push@2x.png
+s423130082.034975
+e423130082.036243
+r1
+xCpResource
+x/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-push@2x.png
+xBuild/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-push@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-push@2x.png182"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-push@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-push@2x.png5f0809e27338b941^fb950ae27338b941^---0#0#1#-19%DVTDocumentLocation2@144"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app/info-dislike-push@2x.png0034b4a9dcffdf42^756"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-push@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike-push@2x.png    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike-push@2x.png /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app36"437EB7A8-8802-46B8-AE21-ED55451C1E24-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike@2x.png
+s423130082.036607
+e423130082.038065
+r1
+xCpResource
+x/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike@2x.png
+xBuild/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike@2x.png172"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike@2x.pnga47009e27338b941^e19b0ae27338b941^---0#0#1#-19%DVTDocumentLocation2@139"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app/info-dislike@2x.png0034b4a9dcffdf42^741"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-dislike@2x.png    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-dislike@2x.png /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app36"DA95E6FF-05BE-46C5-A303-4A0F0A41B52D-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-not@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-not@2x.png
+s423130082.035071
+e423130082.036171
+r1
+xCpResource
+x/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-not@2x.png
+xBuild/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-not@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-not@2x.png174"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-not@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-not@2x.pngb30c09e27338b941^18930ae27338b941^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app/info-like-not@2x.png0034b4a9dcffdf42^744"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-not@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-not@2x.png    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-not@2x.png /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app36"F9338A81-9EEA-45D0-ABDE-4199CD0210D0-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-push@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-push@2x.png
+s423130082.036005
+e423130082.041672
+r1
+xCpResource
+x/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-push@2x.png
+xBuild/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-push@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-push@2x.png176"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-push@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-push@2x.png6a4b09e27338b941^bfb60ae27338b941^---0#0#1#-19%DVTDocumentLocation2@141"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app/info-like-push@2x.png0034b4a9dcffdf42^747"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-push@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like-push@2x.png    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like-push@2x.png /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app36"B3695AAF-90E5-44D6-9489-5CB4A1DCE84A-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like@2x.png
+s423130082.037518
+e423130082.038447
+r1
+xCpResource
+x/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like@2x.png
+xBuild/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like@2x.png166"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like@2x.png42b509e27338b941^0a9e0ae27338b941^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app/info-like@2x.png0034b4a9dcffdf42^732"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/info-like@2x.png    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_design/α.ver/button/info-like@2x.png /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app36"9E104C5C-01AB-4F0C-A7B6-0B7823241DFA-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prix\ de\ fleur02@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prix\ de\ fleur02@2x.png
+s423130082.038959
+e423130082.046489
+r1
+xCpResource
+x/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prix de fleur02@2x.png
+xBuild/Products/Debug-iphonesimulator/Wishfeed_α.app/prix de fleur02@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prix de fleur02@2x.png171"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prix\ de\ fleur02@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prix\ de\ fleur02@2x.pnge1080ae27338b941^abec0be27338b941^---0#0#1#-19%DVTDocumentLocation2@146"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app/prix%20de%20fleur02@2x.png0034b4a9dcffdf42^734"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prix\ de\ fleur02@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prix\ de\ fleur02@2x.png    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prix\ de\ fleur02@2x.png /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app36"9A9824FE-7E27-47F4-AE4D-7B3311158E20-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CCpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prixdefleur@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prixdefleur@2x.png
+s423130082.035281
+e423130082.046474
+r1
+xCpResource
+x/Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prixdefleur@2x.png
+xBuild/Products/Debug-iphonesimulator/Wishfeed_α.app/prixdefleur@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prixdefleur@2x.png159"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prixdefleur@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prixdefleur@2x.pngae1109e27338b941^25e80be27338b941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app/prixdefleur@2x.png0034b4a9dcffdf42^716"CpResource /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prixdefleur@2x.png Build/Products/Debug-iphonesimulator/Wishfeed_α.app/prixdefleur@2x.png    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fxwx23/Dropbox/newelse/wishfeed/wishfeed_α/Images/prixdefleur@2x.png /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app36"BAF1F418-A1BA-4C7E-B269-0DB4390B068D-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CGenerateDSYMFile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app.dSYM /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α
+s423130160.014668
+e423130160.085462
+r1
+xGenerateDSYMFile
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app.dSYM
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Generate /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app.dSYM139"GenerateDSYMFile Build/Products/Debug-iphonesimulator/Wishfeed_α.app.dSYM Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α5ccc03307438b941^8fe115307438b941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_%CE%B1.app.dSYM/0000000000000000^736"GenerateDSYMFile Build/Products/Debug-iphonesimulator/Wishfeed_α.app.dSYM Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app.dSYM36"B5C35262-D665-4C7A-AEE5-B6E12CC8604A-
+b50799E96-961C-4380-AC01-4D5E66891900
+
+CLd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α normal x86_64
+s423130159.899827
+e423130160.010967
+r1
+xLd
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α
+xnormal
+xx86_64
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/Wishfeed_α.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWItems.o
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/main.o
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWWebViewController.o
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWImageLabelView.o
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWDetailsViewController.o
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWChooseItemView.o
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWAppDelegate.o
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/FWViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/libPods.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libsystem_stats.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α81"Ld Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α normal x86_64b667e62f7438b941^dd4203307438b941^---0#0#1#--1703"Ld Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wishfeed_α normal x86_64    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator -F/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator -filelist /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/Wishfeed_α.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework CoreGraphics -framework CoreText -framework ImageIO -framework MobileCoreServices -framework Security -framework SystemConfiguration -framework UIKit -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Objects-normal/x86_64/Wishfeed_α_dependency_info.dat -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Wi36"04F98A2C-88B2-462E-818C-04C1BDE5005F-
+b50799E96-961C-4380-AC01-4D5E66891900
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-F0664894269446EAA7AB7D9E.sh
+s423130159.886285
+e423130159.897352
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-F0664894269446EAA7AB7D9E.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'160"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-F0664894269446EAA7AB7D9E.sh3c2de32f7438b941^80bae52f7438b941^---0#0#1#--408"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-F0664894269446EAA7AB7D9E.sh    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    /bin/sh -c /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-F0664894269446EAA7AB7D9E.sh36"8B80B4EC-D1AA-4027-9245-2334239CC633-
+b50799E96-961C-4380-AC01-4D5E66891900
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-33CA077386FA473CA669EDB6.sh
+s423130160.085799
+e423130162.004364
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-33CA077386FA473CA669EDB6.sh
+obuilding file list ... done
+o
+osent 29 bytes  received 20 bytes  98.00 bytes/sec
+ototal size is 0  speedup is 0.00
+o2014-05-30 17:09:20.340 IBCocoaTouchImageCatalogTool[24313:303] CFPreferences: user home directory at file:///Users/fxwx23/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.compilation-results */
+o/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Assets.car
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'155"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-33CA077386FA473CA669EDB6.sh143f16307438b941^c91e01327438b941^-501"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.002014-05-30 17:09:20.340 IBCocoaTouchImageCatalogTool[24313:303] CFPreferences: user home directory at file:///Users/fxwx23/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Assets.car6(21%IDEActivityLogMessage2@28"building file list ... done-423130160#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-423130160#29#50#-0#-----2@33"total size is 0  speedup is 0.00-423130160#79#33#-0#-----2@225"2014-05-30 17:09:20.340 IBCocoaTouchImageCatalogTool[24313:303] CFPreferences: user home directory at file:///Users/fxwx23/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-423130160#112#225#-0#-----2@43"/* com.apple.actool.compilation-results */-423130162#337#43#-0#-----2@120"/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Assets.car-423130162#380#119#-0#-----0#0#1#--403"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-33CA077386FA473CA669EDB6.sh    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    /bin/sh -c /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Script-33CA077386FA473CA669EDB6.sh36"443D36CA-B724-481C-B397-042F23026E9B-
+b50799E96-961C-4380-AC01-4D5E66891900
+
+CProcessInfoPlistFile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Info.plist /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Wishfeed_α-Info.plist
+s423130084.399855
+e423130084.401523
+r1
+xProcessInfoPlistFile
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Info.plist
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Wishfeed_α-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Process /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Wishfeed_α-Info.plist124"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Info.plist SkipOrLikeSample/Wishfeed_α-Info.plistfd6a66e47338b941^4fcc66e47338b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Wishfeed_%CE%B1-Info.plist0000000000000000^1013"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Info.plist SkipOrLikeSample/Wishfeed_α-Info.plist    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Wishfeed_α-Info.plist -genpkginfo /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/assetcatalog_generated_info.plist -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app/Info.plist36"522C1FCE-96BF-4687-8741-7E9B39702784-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CProcessPCH /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch.pch SkipOrLikeSample/Wishfeed_α-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423130081.681165
+e423130081.762201
+r1
+xProcessPCH
+x/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch.pch
+xSkipOrLikeSample/Wishfeed_α-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Wishfeed_α-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Precompile SkipOrLikeSample/Wishfeed_α-Prefix.pch234"ProcessPCH Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch.pch SkipOrLikeSample/Wishfeed_α-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2a74aee17338b941^a321c3e17338b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Wishfeed_%CE%B1-Prefix.pch0000000000000000^4276"ProcessPCH Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch.pch SkipOrLikeSample/Wishfeed_α-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fxwx23/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-generated-files.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-own-target-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-all-target-headers.hmap -iquote /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/Wishfeed_α-project-headers.hmap -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/include -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources/x86_64 -I/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/Wishfeed_α.build/Debug-iphonesimulator/Wishfeed_α.build/DerivedSources -F/Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/AFNetworking -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/MDCSwipeToChoose -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/OHAttributedLabel -isystem /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Pods/Headers/SDWebImage --serialize-diagnostics /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch.dia -MMD -MT dependencies -MF /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/Wishfeed_α-Prefix.pch.d -c /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/SkipOrLikeSample/Wishfeed_α-Prefix.pch -o /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Intermediates/PrecompiledHeaders/Wishfeed_α-Prefix-azvghdwjgxwihtfrycopvdrrbrjz/W36"02581A63-2C14-4A89-BAE0-18022C478759-
+b6E0F9F17-CD39-4985-9C72-E9641FA0F97F
+
+CProcessPCH /Users/fxwx23/Library/Developer/Xcode/DerivedData/SkipOrLikeSample-aabrnuzhwwmdirhegksqctvpwdmc/Index/PrecompiledHeaders/Wishfeed_α-Prefix-cqhmcitzddefdyaafpokaziqjdwt_ast/Wishfeed_α-Prefix.pch.pch SkipOrLikeSample/Wishfeed_α-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/fxwx23/Documents/Xcode.Projects/SkipOrLikeSample/Build/Products/Debug-iphonesimulator/Wishfeed_α.app
+r0
+
