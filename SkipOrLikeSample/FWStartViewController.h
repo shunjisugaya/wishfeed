@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FWRegisterViewController.h"
+#import "FWLoginViewController.h"
 
 @interface FWStartViewController : UIViewController
+
+@property (nonatomic,strong) UIButton *beginnerBtn;
+@property (nonatomic,strong) UIButton *facebookBtn;
+@property (nonatomic,strong) UIButton *basicLoginBtn;
+
 
 @end

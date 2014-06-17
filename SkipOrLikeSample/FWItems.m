@@ -10,7 +10,6 @@
 
 @implementation FWItems
 
-
 #pragma mark - Object Lifecycle
 
 - (instancetype)initWithName:(NSString *)name

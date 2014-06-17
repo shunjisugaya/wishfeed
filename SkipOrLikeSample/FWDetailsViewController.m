@@ -8,12 +8,14 @@
 
 #import "FWDetailsViewController.h"
 #import "FWViewController.h"
-#import "FWItems.h"
+
 #import <MDCSwipeToChoose/MDCSwipeToChoose.h>
-#import "FWWebViewController.h"
 
 
 @interface FWDetailsViewController ()
+
+@property (nonatomic, strong) UIImageView *imageView;
+
 @property (nonatomic, strong) UIToolbar *toolBar;
 @property (nonatomic, strong) UIActivityViewController *activityViewController;
 @property (nonatomic, strong) UITapGestureRecognizer *tapGestureRecognizer;
@@ -22,6 +24,12 @@
 @end
 
 @implementation FWDetailsViewController
+@synthesize itemsArray;
+@synthesize itemName;
+@synthesize itemImage;
+@synthesize itemPrice;
+
+@synthesize cardView;
 
 
 #pragma mark - UIViewController Overrides
@@ -55,7 +63,7 @@
     UIBarButtonItem *shareButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"share"]
                                                                     style:UIBarButtonItemStyleBordered
                                                                    target:self
-                                                                 action:@selector(shareThis:)];
+                                                                 action:@selector(actionMethod:)];
     // ここはシェアボタン
     self.navigationItem.rightBarButtonItem = shareButton;
     shareButton.tintColor = [UIColor colorWithRed:0.f/255.f green:169.f/255.f blue:157.f/255.f alpha:1.f];
@@ -70,17 +78,20 @@
     self.navigationItem.titleView = title;
     
     
+    
+    
 }
 
 
 #pragma mark - MDCSwipeToChooseDelegate Protocol Methods
+/*
 
-// ユーザーがスワイプしきらずにキャンセルした場合
+ // ユーザーがスワイプしきらずにキャンセルした場合
 - (void)viewDidCancelSwipe:(UIView *)view {
     NSLog(@"You Couldn't Decide on %@.", self.items.name);
 }
 
-// ユーザーが完全にスワイプした場合〜
+// ユーザーが完全にスワイプした場合
 - (void)view:(UIView *)view wasChosenWithDirection:(MDCSwipeDirection)direction {
     // MDCSwipeToChooseを使って、左にスワイプすると「SKIP」スタンプを表示,
     // あと、右は「LIKE」
@@ -92,7 +103,6 @@
 }
 
 
-
 #pragma mark - Internal Methods
 
 - (void)setFrontCardView:(FWChooseItemView *)frontCardView {
@@ -101,13 +111,16 @@
     _frontCardView = frontCardView;
     self.items = frontCardView.items;
 }
+ 
+*/
 
 #pragma mark - view Construction
 
 - (void)constructView {
     
-    // スクロールできるようにしていくよ〜
-    NSInteger pageSize = 4;
+
+    // スクロールできるようにする
+    NSInteger pageSize = 1;
     
     scrollThis = [[UIScrollView alloc] initWithFrame:self.view.bounds];
     scrollThis.backgroundColor = [UIColor whiteColor];
@@ -125,8 +138,7 @@
         [scrollThis setContentSize:CGSizeMake((320 * pageSize), 400)];
     }
     
-        [self.view addSubview:scrollThis];
-    
+    [self.view addSubview:scrollThis];
     
     // スクロールできる背景範囲を指定
     CGRect backFrame = [[UIScreen mainScreen] bounds];
@@ -136,15 +148,54 @@
     }else{
         // ここは4inchの新しいiPhone向けのコードを記入
         backFrame = CGRectMake(0, 0, 320 * pageSize, 400);
-        
     }
-    
+   
     UIView *backGroundView = [[UIView alloc] initWithFrame:backFrame];
     
-    // Add a Itemimage 1
-    UIImage *img = [UIImage imageNamed:@"BoissonChocolat"];
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:img];
+    /*
+    // Parseの「Items」の中にデータが存在するか確認する
+    PFQuery *query =[PFQuery queryWithClassName:@"Items"];
+    [query whereKey:@"objectId" equalTo:@"3pRWTs8Mdw"];
+        
+    NSArray *array = [query findObjects];
+    NSData *imageData = nil;
     
+    // データが存在する場合
+    if (1 <= [array count]) {
+        //保存した画像データを取得する
+        for( PFObject *objectData in array )
+        {
+            PFFile *fileData = [objectData objectForKey:@"Image"];
+            imageData = [fileData getData];
+        }
+        
+        if (nil != imageData) {
+            UIImage *img = [[UIImage alloc] initWithData:imageData];
+            _imageView = [[UIImageView alloc] initWithImage:img];
+            CGRect imageFrame = [[UIScreen mainScreen] bounds];
+            if(imageFrame.size.height == 480){
+                // ここに3.5inchのiPhone用のコードを記入
+                imageFrame = CGRectMake(320 * 0, 5, 320, 280);
+            }else{
+                // ここは4inchの新しいiPhone向けのコードを記入
+                imageFrame = CGRectMake(320 * 0, 5, 320, 350);
+            }
+            _imageView.frame = imageFrame;
+            _imageView.userInteractionEnabled = YES;
+            _imageView.clipsToBounds = YES;
+            _imageView.contentMode = UIViewContentModeScaleAspectFit;
+            UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self
+                                                                                                   action:@selector(tappedToBuy:)];
+            [_imageView addGestureRecognizer:tapGestureRecognizer];
+            [backGroundView addSubview:_imageView];
+        }
+    }  */
+    
+     
+    // Add a Itemimage 1
+    
+    UIImage *img = itemImage;
+    _imageView = [[UIImageView alloc] initWithImage:img];
     CGRect imageFrame = [[UIScreen mainScreen] bounds];
     if(imageFrame.size.height == 480){
         // ここに3.5inchのiPhone用のコードを記入
@@ -154,17 +205,18 @@
         imageFrame = CGRectMake(320 * 0, 5, 320, 350);
         
     }
-    
-    imageView.frame = imageFrame;
-    imageView.userInteractionEnabled = YES;
-    imageView.clipsToBounds = YES;
-    imageView.contentMode = UIViewContentModeScaleAspectFit;
+    _imageView.frame = imageFrame;
+    _imageView.userInteractionEnabled = YES;
+    _imageView.clipsToBounds = YES;
+    _imageView.contentMode = UIViewContentModeScaleAspectFit;
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tappedToBuy:)];
-    [imageView addGestureRecognizer:tapGestureRecognizer];
+    [_imageView addGestureRecognizer:tapGestureRecognizer];
+
+     
+    [backGroundView addSubview:_imageView];
+        
     
-    [backGroundView addSubview:imageView];
-
-
+    /*
     // Add a Itemimage 2
     UIImage *img2 = [UIImage imageNamed:@"BoissonChocolat02"];
     UIImageView *imageView2 = [[UIImageView alloc] initWithImage:img2];
@@ -172,10 +224,10 @@
     CGRect image2Frame = [[UIScreen mainScreen] bounds];
     if(image2Frame.size.height == 480){
         // ここに3.5inchのiPhone用のコードを記入
-        image2Frame = CGRectMake(320 * 1, 5, 320, 280);
+        image2Frame = CGRectMake(320 * 1, 0, 320, 280);
     }else{
         // ここは4inchの新しいiPhone向けのコードを記入
-        image2Frame = CGRectMake(320 * 1, 5, 320, 350);
+        image2Frame = CGRectMake(320 * 1, 0, 320, 350);
         
     }
     
@@ -195,10 +247,10 @@
     CGRect image3Frame = [[UIScreen mainScreen] bounds];
     if(image3Frame.size.height == 480){
         // ここに3.5inchのiPhone用のコードを記入
-        image3Frame = CGRectMake(320 * 2, 5, 320, 280);
+        image3Frame = CGRectMake(320 * 2, 0, 320, 280);
     }else{
         // ここは4inchの新しいiPhone向けのコードを記入
-        image3Frame = CGRectMake(320 * 2, 5, 320, 350);
+        image3Frame = CGRectMake(320 * 2, 0, 320, 350);
         
     }
     
@@ -219,10 +271,10 @@
     CGRect image4Frame = [[UIScreen mainScreen] bounds];
     if (image4Frame.size.height == 480) {
         // 3,5inch
-        image4Frame = CGRectMake(320 * 3, 5, 320, 280);
+        image4Frame = CGRectMake(320 * 3, 0, 320, 280);
     } else {
         // 4inch
-        image4Frame = CGRectMake(320 * 3, 5, 320, 350);
+        image4Frame = CGRectMake(320 * 3, 0, 320, 350);
     }
     
     imageView4.frame = image4Frame;
@@ -233,8 +285,10 @@
     [imageView4 addGestureRecognizer:tapGestureRecognizer4];
     
     [backGroundView addSubview:imageView4];
+     */
     
     
+    /*
     CGRect controllFrame = [[UIScreen mainScreen] bounds];
     if(controllFrame.size.height == 480){
         // ここに3.5inchのiPhone用のコードを記入
@@ -245,9 +299,7 @@
         
     }
     
-    
-    
-    
+   
     pageControl = [[UIPageControl alloc]initWithFrame:controllFrame];
     pageControl.backgroundColor = [UIColor clearColor];
     pageControl.pageIndicatorTintColor = [UIColor colorWithRed:220.f/255.f green:220.f/255.f blue:220.f/255.f alpha:1.f];
@@ -260,12 +312,15 @@
                     action:@selector(pageControl_Tapped:)
           forControlEvents:UIControlEventValueChanged];
     
+    [self.view addSubview:pageControl];
+    
+    */
     
     [scrollThis addSubview:backGroundView];
     
     
     scrollThis.contentSize = backGroundView.bounds.size;
-    [self.view addSubview:pageControl];
+    
     
     
 
@@ -286,8 +341,8 @@
         
     }
     _nameLabel = [[UILabel alloc] initWithFrame:nameFrame];
-    _nameLabel.text = [NSString stringWithFormat:@"Boisson Chocolat"];
-    _nameLabel.font = [UIFont fontWithName:@"AxisStd-Light" size:18];
+    _nameLabel.text = [NSString stringWithFormat:@"%@",itemName];
+    _nameLabel.font = [UIFont fontWithName:@"AxisStd-Regular" size:18];
     _nameLabel.textColor = [UIColor darkGrayColor];
     
     // アイテム名のラベル作成
@@ -302,38 +357,39 @@
     }
     _itemLabel = [[UILabel alloc] initWithFrame:itemFrame];
     _itemLabel.text = @"B　Rソフトスクエア　フラット";
-    _itemLabel.font = [UIFont fontWithName:@"AxisStd-ExtraLight" size:10];
+    _itemLabel.font = [UIFont fontWithName:@"AxisStd-Regular" size:11];
     _itemLabel.textColor = [UIColor lightGrayColor];
     
     // 値段のラベル
     CGRect priceFrame = [[UIScreen mainScreen] bounds];
     if(priceFrame.size.height == 480){
         // ここに3.5inchのiPhone用のコードを記入
-        priceFrame = CGRectMake(230, 365, 150, 40);
+        priceFrame = CGRectMake(150, 365, 150, 40);
     }else{
         // ここは4inchの新しいiPhone向けのコードを記入
-        priceFrame = CGRectMake(230, 435, 150, 40);
+        priceFrame = CGRectMake(150, 435, 150, 40);
         
     }
     _priceLabel = [[UILabel alloc] initWithFrame:priceFrame];
-    _priceLabel.text = [NSString stringWithFormat:@"¥9,180"];
-    _priceLabel.font = [UIFont fontWithName:@"AxisStd-Light" size:18];
+    _priceLabel.text = [NSString stringWithFormat:@"￥%@",itemPrice];
+    _priceLabel.font = [UIFont fontWithName:@"AxisStd-Bold" size:18];
     _priceLabel.textColor = [UIColor darkGrayColor];
+    _priceLabel.textAlignment = NSTextAlignmentRight;
     
     // 販売先も明記
     CGRect linkFrame = [[UIScreen mainScreen] bounds];
     if(linkFrame.size.height == 480){
         // ここに3.5inchのiPhone用のコードを記入
-        linkFrame = CGRectMake(20, 410, 150, 30);
+        linkFrame = CGRectMake(20, 405, 150, 30);
     }else{
         // ここは4inchの新しいiPhone向けのコードを記入
-        linkFrame = CGRectMake(20, 490, 150, 30);
+        linkFrame = CGRectMake(20, 485, 150, 30);
         
     }
     _linkLabel = [[UILabel alloc] initWithFrame:linkFrame];
     _linkLabel.text = @"@MAGASEEK";
-    _linkLabel.font = [UIFont fontWithName:@"DINMittelschriftStd" size:13];
-    _linkLabel.textColor = [UIColor colorWithRed:0.f/255.f green:169.f/255.f blue:157.f/255.f alpha:1.f];
+    _linkLabel.font = [UIFont fontWithName:@"AxisStd-Light" size:10];
+    _linkLabel.textColor = [UIColor darkGrayColor];
     
     // 購入ボタン
     UIImage *image = [UIImage imageNamed:@"buy-button"];
@@ -365,7 +421,6 @@
 
     _likebutton = [[UIButton alloc] initWithFrame:likeFrame];
     [_likebutton setImage:_likeImage forState:UIControlStateNormal];
-    
     [_likebutton addTarget:self action:@selector(tappedToLike:) forControlEvents:UIControlEventTouchUpInside];
     
     // ADDSUB
@@ -383,11 +438,11 @@
 #pragma mark - control Events
 
 - (void)tappedToLike:(id)sender {
-    NSLog(@"You liked this");
+    NSLog(@"You liked %@", self.itemName);
     
     // このアイテムをlikeしたとしてボタンの色が変わる
-    UIImage *imgPushed = [UIImage imageNamed:@"like-button-push"];
-    [_likebutton setImage:imgPushed forState:UIControlStateNormal];
+    self.likeImagePushed = [UIImage imageNamed:@"like-button-push"];
+    [_likebutton setImage:self.likeImagePushed forState:UIControlStateNormal];
     
     // もう一度ボタンを押すと、likeをcancelしたとする
     [_likebutton addTarget:self action:@selector(canceled:) forControlEvents:UIControlEventTouchUpInside];
@@ -396,7 +451,7 @@
 }
 
 - (void)canceled:(id)sender {
-    NSLog(@"You canceled to like this.");
+    NSLog(@"You canceled to like %@", self.itemName);
     
     // このアイテムをlikeしたことをcancelしたとしてボタン色が戻る
     [_likebutton setImage:_likeImage forState:UIControlStateNormal];
@@ -408,12 +463,165 @@
 
 
 - (void)backToView:(id)sender {
+    // likeされたままページ遷移した場合
+    // pushされたかを判定
+    // pushされてた場合
+    if ([_likebutton.currentImage isEqual:self.likeImagePushed]) {
+        NSLog(@"%@ has been liked and gonna be into your wishlist.", self.itemName);
+        // 前のページに戻る
+        [self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:0] animated:YES];
+        // likeFrontCardView method acts
+        [self performSelector:@selector(swipeCard)
+                   withObject:nil
+                   afterDelay:0.5];
+        
+        
+    // pushされてない場合
+    } else if([_likebutton.currentImage isEqual:self.likeImage]){
+        NSLog(@"%@ hasn't been matched you anyway.", self.itemName);
+        [self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:0] animated:YES];
+    }
+
+}
+
+- (void)swipeCard {
+    [self.cardView mdc_swipe:MDCSwipeDirectionRight];
+}
+
+// action menu を表示、実行
+- (void)actionMethod:(id)sender {
+    NSLog(@"Action menu is appeared");
+    UIActionSheet *actionSheet = [[UIActionSheet alloc]initWithTitle:nil
+                                                            delegate:self
+                                                   cancelButtonTitle:nil
+                                              destructiveButtonTitle:nil
+                                                   otherButtonTitles:nil, nil];
     
-    // 前のページに戻る
-   [self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:0] animated:YES];
-   [self.frontCardView mdc_swipe:MDCSwipeDirectionRight];
+    [actionSheet addButtonWithTitle:@"この商品をTwitterでシェア"];
+    [actionSheet addButtonWithTitle:@"この商品をLINEで教える"];
+    [actionSheet addButtonWithTitle:@"この商品をFacebookでシェア"];
+    [actionSheet addButtonWithTitle:@"この商品をSMSで教える"];
+    [actionSheet addButtonWithTitle:@"この商品をEメールで教える"];
     
+    [actionSheet addButtonWithTitle:@"キャンセル"];
+    actionSheet.cancelButtonIndex = actionSheet.numberOfButtons - 1;
     
+    [actionSheet showInView:self.view.window];
+    
+}
+
+
+
+//UIActionSheetDelegateによるクリック時処理
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    
+    switch (buttonIndex) {
+        case 0:
+        { //
+            // METHOD TO TWEET
+            // Twitter Class 初期化
+            SLComposeViewController *tweet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+            // 送信文字列セット(140文字をリミット)
+            // ハッシュタグ #wishfeed をデフォルトでツイートに追加
+            NSString *message = [[NSString alloc] initWithFormat:@"#wishfeed"];
+            if (message.length > 140) {
+                message = [message substringToIndex:140];
+            }
+            
+            [tweet setInitialText:message];
+            // [CANSEL]ボタンなどのイベントハンドラ定義
+            tweet.completionHandler = ^(SLComposeViewControllerResult result) {
+                [self dismissViewControllerAnimated:YES completion:nil];
+                if (result == SLComposeViewControllerResultDone) {
+                    NSLog(@"Twitter Method has been done.");
+                }
+            };
+            
+            // 送信Viewを表示
+            [self presentViewController:tweet animated:YES completion:nil];
+            
+            break;
+        } //
+
+        case 1:
+            // METHOD TO LINE TO SOMEONE
+            
+            
+            break;
+        case 2:
+        { //
+            // METHOD TO POST IT ON FACEBOOK
+            // Facebook Class 初期化
+            SLComposeViewController *facebook = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+            [facebook setCompletionHandler:^(SLComposeViewControllerResult result) {
+                [self dismissViewControllerAnimated:YES completion:nil];
+                if (result == SLComposeViewControllerResultDone) {
+                    NSLog(@"sendFacebook succeded");
+                }
+            }];
+        
+            // POSTするテキストの初期設定
+            NSString *message = [NSString stringWithFormat:@"#wishfeed"];
+            [facebook setInitialText:message];
+            /*
+            // URLをポストする場合
+            [facebook addURL:[NSURL URLWithString:@"http://XXXXXXXXXX"]];
+            // 画像をポストする場合
+            [facebook addImage:[UIImage imageNamed:@"XXX"]];
+             */
+            // SLComposeViewController 表示
+            [self presentViewController:facebook animated:YES completion:nil];
+            
+            break;
+        } //
+        case 3:
+        { //
+            // SMS送信
+            //phoneはメッセージを送りたい電話番号
+            NSString *phone;
+            //messageは、SMSのメッセージ内容
+            NSString *message;
+            UIViewController *viewController;
+            
+            // MFMessageComposeViewControllerの初期化
+            MFMessageComposeViewController *mFMessageComposeViewController = [MFMessageComposeViewController alloc];
+            if ([MFMessageComposeViewController canSendText]) {
+                mFMessageComposeViewController.messageComposeDelegate = self;
+                mFMessageComposeViewController.recipients = @[phone];
+                mFMessageComposeViewController.body = message;
+            }
+            [viewController presentViewController:mFMessageComposeViewController animated:YES completion:nil];
+            
+            break;
+        }//
+        case 4:
+            // 5番目のボタンが押されたときの処理を記述する (Safariで追加)
+            
+            break;
+    }
+    
+}
+
+
+- (void)willPresentActionSheet:(UIActionSheet *)actionSheet {
+    
+    for (UIView *subview in actionSheet.subviews) {
+        if ([subview isKindOfClass:[UIButton class]]) {
+            UIButton *button = (UIButton *)subview;
+            [button setTitleColor:[UIColor colorWithRed:0.f/255.f green:169.f/255.f blue:157.f/255.f alpha:1.f] forState:UIControlStateNormal];  //通常時
+            [button setTitleColor:[UIColor blueColor] forState:UIControlStateHighlighted];//クリック時
+            [button setFont:[UIFont fontWithName:@"AxisStd-Light" size:15.f]];
+            
+            
+       }
+        
+    }
+}
+
+
+- (void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult)result {
+    NSLog(@"Message Method has been finished.");
 }
 
 
@@ -437,7 +645,7 @@
 
 - (void)tappedToBuy:(id)sender {
     
-    NSLog(@"You want to buy.");
+    NSLog(@"You want to buy %@", self.itemName);
     
     FWWebViewController *webViewController = [[FWWebViewController alloc] init];
     

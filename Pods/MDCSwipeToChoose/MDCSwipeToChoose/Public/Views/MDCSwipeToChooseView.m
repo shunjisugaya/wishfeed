@@ -29,8 +29,8 @@
 #import "UIColor+MDCRGB8Bit.h"
 #import <QuartzCore/QuartzCore.h>
 
-static CGFloat const MDCSwipeToChooseViewHorizontalPadding = 15.f;
-static CGFloat const MDCSwipeToChooseViewTopPadding = 18.f;
+static CGFloat const MDCSwipeToChooseViewHorizontalPadding = 25.f;
+static CGFloat const MDCSwipeToChooseViewTopPadding = 30.f;
 static CGFloat const MDCSwipeToChooseViewLabelWidth = 50.f;
 
 @interface MDCSwipeToChooseView ()
@@ -60,17 +60,17 @@ static CGFloat const MDCSwipeToChooseViewLabelWidth = 50.f;
     self.backgroundColor = [UIColor whiteColor];
     self.layer.cornerRadius = 1.5f;
     self.layer.borderWidth = 1.f;
-    self.layer.shadowOpacity = 0.1f;
-    self.layer.shadowOffset = CGSizeMake(2,2);
+    self.layer.shadowOpacity = 0.2f;
+    self.layer.shadowOffset = CGSizeMake(0,2);
     self.layer.shadowRadius = 2.f;
-    self.layer.borderColor = [UIColor colorWithRed:220/255.f green:220/255.f blue:220/255.f alpha:1.f].CGColor;
+    self.layer.borderColor = [UIColor colorWithRed:200/255.f green:200/255.f blue:200/255.f alpha:1.f].CGColor;
 }
 
 - (void)constructImageView {
     CGRect bottomFrame = [[UIScreen mainScreen] bounds];
     if(bottomFrame.size.height == 480){
         // ここに3.5inchのiPhone用のコードを記入
-        bottomFrame = CGRectMake(0,0,285,230);
+        bottomFrame = CGRectMake(0,10,285,230);
 
     }else{
         // ここは4inchの新しいiPhone向けのコードを記入

@@ -7,26 +7,40 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Social/Social.h>
+#import <MessageUI/MessageUI.h>
+
 #import "FWChooseItemView.h"
+#import "FWItems.h"
+#import "FWWebViewController.h"
 
 
-@interface FWDetailsViewController : UIViewController <UIScrollViewDelegate,MDCSwipeToChooseDelegate> {
+
+@interface FWDetailsViewController : UIViewController <MDCSwipeToChooseDelegate,
+UIScrollViewDelegate,UIActionSheetDelegate,MFMessageComposeViewControllerDelegate> {
+   
     UIScrollView *scrollThis;
     UIPageControl *pageControl;
     
 }
-@property (nonatomic, strong) FWItems *items;
-@property (nonatomic, strong) FWChooseItemView *frontCardView;
-@property (nonatomic, strong) FWChooseItemView *backCardView;
+
+@property (nonatomic,retain) NSMutableArray *items;
 
 @property (nonatomic, strong) UITextView *textView;
 @property (nonatomic, strong) UIButton *likebutton;
-@property (nonatomic ,strong) UIImage *likeImage;
+@property (nonatomic, strong) UIImage *likeImage;
+@property (nonatomic, strong) UIImage *likeImagePushed;
 @property (nonatomic, strong) UILabel *nameLabel;
 @property (nonatomic, strong) UILabel *itemLabel;
 @property (nonatomic, strong) UILabel *priceLabel;
 @property (nonatomic, strong) UILabel *linkLabel;
 
+@property  NSString *itemName;
+@property UIImage *itemImage;
+@property NSString *itemPrice;
 
+@property  NSMutableArray *itemsArray;
+
+@property FWChooseItemView *cardView;
 
 @end

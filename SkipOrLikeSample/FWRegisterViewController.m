@@ -7,6 +7,8 @@
 //
 
 #import "FWRegisterViewController.h"
+#import "FWStartViewController.h"
+
 
 @interface FWRegisterViewController ()
 
@@ -14,36 +16,125 @@
 
 @implementation FWRegisterViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
+# pragma mark - UIViewController Overrides
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationController.navigationBarHidden = NO;
+    
+    [self registAsFacebook];
+    
+    [self registAsBasicUser];
+    
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated {
+    
+    // 前のページに戻るボタンを作成
+    UIBarButtonItem *arrowButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"arrow"]
+                                                                    style:UIBarButtonItemStyleBordered
+                                                                   target:self
+                                                                   action:@selector(backToView:)];
+    
+    
+    self.navigationItem.leftBarButtonItem = arrowButton;
+    arrowButton.tintColor = [UIColor colorWithRed:0.f/255.f green:169.f/255.f blue:157.f/255.f alpha:1.f];
+    
+    UIBarButtonItem *skipButton = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"skip_button"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                                                    style:UIBarButtonItemStyleBordered
+                                                                   target:self
+                                                                   action:@selector(skipMethod:)];
+    // ここはシェアボタン
+    self.navigationItem.rightBarButtonItem = skipButton;
+    skipButton.tintColor = [UIColor colorWithRed:0.f/255.f green:169.f/255.f blue:157.f/255.f alpha:1.f];
+
+   
+    
 }
 
-/*
-#pragma mark - Navigation
+# pragma mark - View Construction
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)registAsFacebook {
+    UIImage *img = [UIImage imageNamed:@"FB_register"];
+    self.facebookBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.facebookBtn setImage:img forState:UIControlStateNormal];
+    [self.facebookBtn sizeToFit];
+    
+    CGRect frame = [[UIScreen mainScreen] bounds];
+    if (frame.size.height == 480) {
+        // 4 and 4S
+        frame = CGRectMake(15, 75, img.size.width, img.size.height);
+    }else {
+        // 5, 5S, and 5C
+        frame = CGRectMake(15, 75, img.size.width, img.size.height);
+    }
+    self.facebookBtn.frame = frame;
+    [self.facebookBtn addTarget:self
+                         action:@selector(registByFacebook:)
+               forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:self.facebookBtn];
+
+    
 }
-*/
+
+- (void)registAsBasicUser {
+    
+    UIImage *img = [UIImage imageNamed:@"register"];
+    self.registBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.registBtn setImage:img forState:UIControlStateNormal];
+    [self.registBtn sizeToFit];
+    
+    CGRect frame = [[UIScreen mainScreen] bounds];
+    if (frame.size.height == 480) {
+        // 4 and 4S
+        frame = CGRectMake(15, 250, img.size.width, img.size.height);
+    }else {
+        // 5, 5S, and 5C
+        frame = CGRectMake(15, 300, img.size.width, img.size.height);
+    }
+    self.registBtn.frame = frame;
+    [self.registBtn addTarget:self
+                         action:@selector(registByBasic:)
+               forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:self.registBtn];
+
+    
+    
+}
+
+# pragma mark - Control Events
+
+- (void)registByFacebook:(id)sender {
+    NSLog(@"Facebook registration has been tried again.");
+    
+    
+}
+
+- (void)registByBasic:(id)sender {
+    NSLog(@"Basic registration has been tried.");
+    
+}
+
+- (void)backToView:(id)sender {
+    
+      [self.navigationController popViewControllerAnimated:YES];
+   
+        self.navigationController.navigationBarHidden = YES;
+    
+    
+}
+
+- (void)skipMethod:(id)sender {
+    
+    NSLog(@"skip registration.");
+    
+}
+
+
 
 @end

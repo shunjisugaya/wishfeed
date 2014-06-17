@@ -54,9 +54,11 @@
     
     backButton.tintColor = [UIColor colorWithRed:0.f/255.f green:169.f/255.f blue:157.f/255.f alpha:1.f];
     
-    actionBtn = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction
-                                                              target:self action:@selector(actionMethod:)];
-    
+    actionBtn = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"share"]
+                                                 style:UIBarButtonItemStyleBordered
+                                                target:self
+                                                action:@selector(actionMethod:)];
+                 
     self.navigationItem.rightBarButtonItem = actionBtn;
     actionBtn.tintColor = [UIColor colorWithRed:0.f/255.f green:169.f/255.f blue:157.f/255.f alpha:1.f];
     
@@ -276,9 +278,31 @@
     
     switch (buttonIndex) {
         case 0:
+        { //
             // １番目のボタンが押されたときの処理を記述する
+            // Twitter Class 初期化
+            SLComposeViewController *tweet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+            // 送信文字列セット(140文字をリミット)
+            // ハッシュタグ #wishfeed をデフォルトでツイートに追加
+            NSString *message = [[NSString alloc] initWithFormat:@"#wishfeed"];
+            if (message.length > 140) {
+                message = [message substringToIndex:140];
+            }
+    
+            [tweet setInitialText:message];
+            // [CANSEL]ボタンなどのイベントハンドラ定義
+            tweet.completionHandler = ^(SLComposeViewControllerResult result) {
+                [self dismissViewControllerAnimated:YES completion:nil];
+                if (result == SLComposeViewControllerResultDone) {
+                    NSLog(@"Twitter Method has been done.");
+                }
+            };
+            
+            // 送信Viewを表示
+            [self presentViewController:tweet animated:YES completion:nil];
             
             break;
+        } //
         case 1:
             // ２番目のボタンが押されたときの処理を記述する
             

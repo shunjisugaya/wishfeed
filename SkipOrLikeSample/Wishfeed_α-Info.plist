@@ -30,6 +30,7 @@
 		<string>DINMittelschriftStd.otf</string>
 		<string>axisstd-light.otf</string>
 		<string>axisstd-extralight.otf</string>
+		<string>axisstd-bold.otf</string>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>

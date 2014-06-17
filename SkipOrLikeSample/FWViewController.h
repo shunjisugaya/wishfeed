@@ -8,11 +8,26 @@
 
 #import <UIKit/UIKit.h>
 #import "FWChooseItemView.h"
+#import "FWDetailsViewController.h"
 
-@interface FWViewController : UIViewController <MDCSwipeToChooseDelegate>
+@interface FWViewController : UIViewController <MDCSwipeToChooseDelegate> {
+    NSString *itemName;
+    UIImage *itemImage;
+    NSString *itemPrice;
+    
+    NSMutableArray *itemsArray;
+    
+    FWChooseItemView *cardView;
+
+}
+
+- (void)likeFrontCardView;
+
 @property (nonatomic, strong) FWItems *currentItem;
 @property (nonatomic, strong) FWChooseItemView *frontCardView;
 @property (nonatomic, strong) FWChooseItemView *backCardView;
+
+@property (nonatomic,retain) UITapGestureRecognizer *tapGesturerRecognizer;
 
 
 @end

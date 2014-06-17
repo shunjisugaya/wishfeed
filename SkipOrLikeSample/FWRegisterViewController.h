@@ -10,4 +10,8 @@
 
 @interface FWRegisterViewController : UIViewController
 
+@property (nonatomic,strong) UIButton *facebookBtn;
+@property (nonatomic,strong) UIButton *registBtn;
+
+
 @end

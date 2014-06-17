@@ -14,36 +14,129 @@
 
 @implementation FWStartViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
+# pragma mark - UIViewController Overrides
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.navigationController.navigationBarHidden = YES;
+   
+    
+    [self backgroundImage];
+    [self registrationForBeginner];
+    [self registrationForFacebook];
+    [self loginForAlreadyExists];
+
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+# pragma mark - View Construction
+- (void)backgroundImage {
+    
+    UIImage *backgroundImage = [UIImage imageNamed:@"loading"];
+    // self.view.backgroundColor = [UIColor colorWithPatternImage:backgroundImage];
+    UIImageView *view = [[UIImageView alloc] initWithImage:backgroundImage];
+    
+    [self.view addSubview:view];
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)registrationForBeginner {
+    
+    UIImage *img = [UIImage imageNamed:@"first"];
+    self.beginnerBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.beginnerBtn setImage:img forState:UIControlStateNormal];
+    [self.beginnerBtn sizeToFit];
+    CGRect frame = [[UIScreen mainScreen] bounds];
+    if(frame.size.height == 480){
+        // ここに3.5inchのiPhone用のコードを記入
+        frame = CGRectMake(15, 300, img.size.width, img.size.height);
+    }else{
+        // ここは4inchの新しいiPhone向けのコードを記入
+        frame = CGRectMake(15, 350, img.size.width, img.size.height);
+    }
+    
+    self.beginnerBtn.frame = frame;
+    [self.beginnerBtn addTarget:self
+                         action:@selector(registForTheFirstTime:)
+               forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:self.beginnerBtn];
+    
 }
-*/
+
+- (void)registrationForFacebook {
+    
+    UIImage *img = [UIImage imageNamed:@"facebook"];
+    self.facebookBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.facebookBtn setImage:img forState:UIControlStateNormal];
+    [self.facebookBtn sizeToFit];
+    CGRect frame = [[UIScreen mainScreen] bounds];
+    if (frame.size.height == 480) {
+        // 4 and 4S
+        frame = CGRectMake(15, 360, img.size.width, img.size.height);
+    }else {
+        // 5, 5S, and 5C
+        frame = CGRectMake(15, 410, img.size.width, img.size.height);
+    }
+    self.facebookBtn.frame = frame;
+    [self.facebookBtn addTarget:self
+                         action:@selector(registByFacebook:)
+               forControlEvents:UIControlEventTouchUpInside];
+
+    [self.view addSubview:self.facebookBtn];
+    
+    
+}
+
+- (void)loginForAlreadyExists {
+    
+    self.basicLoginBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [self.basicLoginBtn setTitle:@"アカウントを既にお持ちの方" forState:UIControlStateNormal];
+    self.basicLoginBtn.titleLabel.font = [UIFont fontWithName:@"AxisStd-Regular" size:15];
+    self.basicLoginBtn.tintColor = [UIColor darkGrayColor];
+    CGRect frame = [[UIScreen mainScreen] bounds];
+    if (frame.size.height == 480) {
+        // 4 and 4S
+        frame = CGRectMake(frame.origin.x + 60, 435, 200, 20);
+    } else {
+        frame = CGRectMake(frame.origin.x + 60, 530, 200, 20);
+    }
+    
+    self.basicLoginBtn.frame = frame;
+    [self.basicLoginBtn addTarget:self
+                           action:@selector(alreadyExists:)
+                 forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:self.basicLoginBtn];
+    
+    
+    
+    
+}
+
+# pragma mark - Control Events
+
+- (void)registForTheFirstTime:(id)sender {
+    
+    NSLog(@"You press forward the registration screen.");
+    
+    
+    FWRegisterViewController *view = [[FWRegisterViewController alloc] init];
+    [self.navigationController pushViewController:view animated:YES];
+    
+}
+
+- (void)registByFacebook:(id)sender {
+    
+}
+
+
+- (void)alreadyExists:(id)sender {
+    
+}
 
 @end

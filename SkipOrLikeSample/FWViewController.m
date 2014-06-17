@@ -6,20 +6,22 @@
 //  Copyright (c) 2014年 Fumitaka Watanabe. All rights reserved.
 //
 
-#import <Parse/Parse.h>
+
 #import "FWViewController.h"
 #import "FWItems.h"
 #import <MDCSwipeToChoose/MDCSwipeToChoose.h>
-#import "FWDetailsViewController.h"
+
 
 
 @interface FWViewController ()
-@property (nonatomic, strong) NSMutableArray *items;
+
 @property (nonatomic, strong) UITapGestureRecognizer *tapGestureRecognizer;
+@property (nonatomic) NSMutableArray *items;
 
 @end
 
 @implementation FWViewController
+
 
 #pragma mark - Object Lifecycle
 
@@ -29,7 +31,7 @@
         // This view controller maintains a list of ChoosePersonView
         // instances to display.
         _items = [[self defaultItems] mutableCopy];
-
+        
     }
     return self;
 }
@@ -38,6 +40,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     
     // Add buttons to programmatically swipe the view left or right.
     // See the `nopeFrontCardView` and `likeFrontCardView` methods.
@@ -66,12 +69,20 @@
     UIImageView *titleImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navigation-title"]];
     self.navigationItem.titleView = titleImageView;
     
+    /*
+    UILabel *title = [[UILabel alloc] initWithFrame:CGRectZero];
+    title.textColor = [UIColor colorWithRed:0.f/255.f green:169.f/255.f blue:157.f/255.f alpha:1.f];
+    title.text = [NSString stringWithFormat:@"%@", self.currentItem.name];
+    title.font =[UIFont fontWithName:@"AxisStd-Light" size:15];
+    [title sizeToFit];
+    self.navigationItem.titleView = title;
+    */
+    
     // Menuボタンをナビゲーションバーに追加
     UIBarButtonItem *menu = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"menu"]
                                                              style:UIBarButtonItemStyleBordered
                                                             target:self
                                                             action:@selector(menuAppeared:)];
-    
     self.navigationItem.leftBarButtonItem = menu;
     menu.tintColor = [UIColor colorWithRed:0.f/255.f green:169.f/255.f blue:157.f/255.f alpha:1.f];
     
@@ -91,13 +102,22 @@
 
 // This is called then a user swipes the view fully left or right.
 - (void)view:(UIView *)view wasChosenWithDirection:(MDCSwipeDirection)direction {
-    // MDCSwipeToChooseView shows "NOPE" on swipes to the left,
-    // and "LIKED" on swipes to the right.
+    // MDCSwipeToChooseView shows "SKIP" on swipes to the left,
+    // and "LIKE" on swipes to the right.
     if (direction == MDCSwipeDirectionLeft) {
+        // SKIPした時
         NSLog(@"You Skipped %@.", self.currentItem.name);
+        // skipした場合の処理はここへ
+        // ・・・・
     } else {
+        // LIKEした時
         NSLog(@"You Liked %@.", self.currentItem.name);
+        // LIKEした場合の処理
+        // LIKEしたアイテムはWishlistに追加される
+        // ・・・・
+        
     }
+    
     
     // MDCSwipeToChooseView removes the view from the view hierarchy
     // after it is swiped (this behavior can be customized via the
@@ -124,21 +144,50 @@
     // Quick and dirty, just for the purposes of this sample app.
     _frontCardView = frontCardView;
     self.currentItem = frontCardView.items;
-    UITapGestureRecognizer *tapGesturerRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hadleTapped:)];
-    [frontCardView addGestureRecognizer:tapGesturerRecognizer];
+    self.tapGesturerRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hadleTapped:)];
+    [frontCardView addGestureRecognizer:self.tapGesturerRecognizer];
 }
 
 - (NSArray *)defaultItems {
     // It would be trivial to download these from a web service
     // as needed, but for the purposes of this sample app we'll
-    // simply store them in memory.
+    // simply store them in memory.v
+    
+    /*
+    // Parseの「Items」の中にデータが存在するか確認する
+    PFQuery *query =[PFQuery queryWithClassName:@"Items"];
+    [query whereKey:@"objectId" equalTo:@"93QQOFEKR4"];
+    
+    NSArray *parseArray = [query findObjects];
+    NSData *imageData = nil;
+    NSString *nameString = nil;
+    NSString *priceString = nil;
+    
+    
+     // データが存在する場合
+    if (1 <= [parseArray count]) {
+        //保存した画像データを取得する
+        for( PFObject *objectData in parseArray )
+        {
+            PFFile *fileData = [objectData objectForKey:@"Image"];
+            imageData = [fileData getData];
+            
+            nameString = objectData[@"BrandName"];
+            priceString = objectData[@"Price"];
+        }
+    }
+     */
+     
     
     return @[[[FWItems alloc]initWithName:@"Boisson Chocolat"
                                     image:[UIImage imageNamed:@"BoissonChocolat"]
-                                    price:@"9,180"],
+                                    price:@"7,869"],
              [[FWItems alloc]initWithName:@"Sunday Morning"
                                     image:[UIImage imageNamed:@"SundayMorning"]
                                     price:@"3,564"],
+             [[FWItems alloc] initWithName:@"BONICA DOT"
+                                     image:[UIImage imageNamed:@"bonicadot"]
+                                     price:@"17,280"],
              [[FWItems alloc] initWithName:@"TOMS"
                                     image:[UIImage imageNamed:@"TOMS02"]
                                     price:@"8,424"],
@@ -147,7 +196,7 @@
                                     price:@"3,800"],
              [[FWItems alloc] initWithName:@"MERCURYDUO"
                                     image:[UIImage imageNamed:@"MERCURYDUO"]
-                                    price:@"7,200"],
+                                    price:@"745,200"],
              [[FWItems alloc] initWithName:@"DORAMIK"
                                     image:[UIImage imageNamed:@"DORAMIK"]
                                     price:@"3,996"],
@@ -187,42 +236,39 @@
              [[FWItems alloc] initWithName:@"MURUA"
                                      image:[UIImage imageNamed:@"MURUA03"]
                                      price:@"6,780"]
-        ];
+             ];
+    
 }
 
-
+    
 - (FWChooseItemView *)popItemViewWithFrame:(CGRect)frame {;
    
+    // 配列のアイテムが何もなくなった場合の処理
     if ([_items count] == 0) {
         return nil;
     }
 
     
-    // UIView+MDCSwipeToChoose and MDCSwipeToChooseView are heavily customizable.
-    // Each take an "options" argument. Here, we specify the view controller as
-    // a delegate, and provide a custom callback that moves the back card view
-    // based on how far the user has panned the front card view.
     MDCSwipeToChooseViewOptions *options = [MDCSwipeToChooseViewOptions new];
     options.delegate = self;
     options.threshold = 160.f;
     options.onPan = ^(MDCPanState *state){
         CGRect frame = [self backCardViewFrame];
         self.backCardView.frame = CGRectMake(frame.origin.x,
-                                             frame.origin.y - (state.thresholdRatio * 10.f),
+                                             frame.origin.y - (state.thresholdRatio * 7.f),
                                              CGRectGetWidth(frame),
                                              CGRectGetHeight(frame));
     };
     
-    // Create a itemView with the top person in the items array, then pop
-    // that item off the stack.
+   // itemViewを作る　フレームと配列の[0]とアイテムとMDCSwipeChooseのoptionsを使用
     FWChooseItemView *itemView = [[FWChooseItemView alloc] initWithFrame:frame
-                                                                     items:self.items[0]
-                                                                   options:options];
+                                                                   items:self.items[0]
+                                                                 options:options];
     
-    
+    // [0]のアイテムは画面から消えたら配列から削除
+    // [0]を消すと次の配列のアイテムが前に詰められて[0]になる。の繰り返し
+    [self.items removeObjectAtIndex:0];
     return itemView;
-    
-
 }
 
 #pragma mark View Contruction
@@ -230,18 +276,18 @@
     CGRect r = [[UIScreen mainScreen] bounds];
     if(r.size.height == 480){
         // ここに3.5inchのiPhone用のコードを記入
-        return CGRectMake(19,85,285,280);
+        return CGRectMake(17,85,285,280);
         
     }else{
         // ここは4inchの新しいiPhone向けのコードを記入
-        return CGRectMake(19,105,285,330);
+        return CGRectMake(17,105,285,330);
     }
 }
 
 - (CGRect)backCardViewFrame {
     CGRect frontFrame = [self frontCardViewFrame];
     return CGRectMake(frontFrame.origin.x,
-                      frontFrame.origin.y + 10.f,
+                      frontFrame.origin.y + 7.f,
                       CGRectGetWidth(frontFrame),
                       CGRectGetHeight(frontFrame));
 }
@@ -344,6 +390,13 @@
    // 詳細ページに遷移＃01
     if (detailsView) {
         [self.navigationController pushViewController:detailsView animated:YES];
+        
+        detailsView.itemName = self.currentItem.name;
+        detailsView.itemImage = self.currentItem.image;
+        detailsView.itemPrice = self.currentItem.price;
+        detailsView.cardView = self.frontCardView;
+        
+
     }
 }
 
@@ -366,6 +419,11 @@
     // #01と同様
     if (detailsView) {
         [self.navigationController pushViewController:detailsView animated:YES];
+        
+        detailsView.itemName = self.currentItem.name;
+        detailsView.itemImage = self.currentItem.image;
+        detailsView.itemPrice = self.currentItem.price;
+        detailsView.cardView = self.frontCardView;
     }
     
     

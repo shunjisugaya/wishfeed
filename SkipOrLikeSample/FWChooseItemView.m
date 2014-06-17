@@ -14,6 +14,7 @@
 @interface FWChooseItemView ()
 @property (nonatomic, strong) UIView *informationView;
 @property (nonatomic, strong) UILabel *nameLabel;
+@property (nonatomic, strong) UILabel *priceLabel;
 @end
 
 @implementation FWChooseItemView
@@ -61,20 +62,32 @@
     [self addSubview:_informationView];
     
     [self constructNameLabel];
+    [self constructPriceLabel];
    
 }
 
 - (void)constructNameLabel {
     
-    CGRect frame = CGRectMake(10,0,249,20);
+    CGRect frame = CGRectMake(10,0,180,20);
     _nameLabel = [[UILabel alloc] initWithFrame:frame];
     _nameLabel.textColor = [UIColor darkGrayColor];
-    _nameLabel.font = [UIFont fontWithName:@"AxisStd-Light" size:13];
-    _nameLabel.text = [NSString stringWithFormat:@"%@       ￥%@", _items.name, _items.price];
+    _nameLabel.font = [UIFont fontWithName:@"AxisStd-Light" size:14];
+    _nameLabel.text = [NSString stringWithFormat:@"%@", _items.name];
     [_informationView addSubview:_nameLabel];
     
 }
 
+- (void)constructPriceLabel {
+    CGRect frame = CGRectMake(160, 0,100, 20);
+    _priceLabel = [[UILabel alloc] initWithFrame:frame];
+    _priceLabel.textColor = [UIColor darkGrayColor];
+    _priceLabel.textAlignment = NSTextAlignmentRight;
+    _priceLabel.font = [UIFont fontWithName:@"AxisStd-Light" size:14];
+    _priceLabel.text = [NSString stringWithFormat:@"￥%@",_items.price];
+    [_informationView addSubview:_priceLabel];
+    
+    
+}
 
 
 @end
